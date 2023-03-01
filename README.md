@@ -1,7 +1,4 @@
 # Honeycomb-Mead
 
 
-wr
-w;r
-wr
-qr
+USE THE MAIN FILE FOR MOST, IF NOT ALL FILES!!!!!
