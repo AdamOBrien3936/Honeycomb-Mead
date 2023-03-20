@@ -1,0 +1,249 @@
+*{ 
+  margin: 0;
+  padding: 0;
+  font-family: 'Akshar', sans-serif;
+  
+}
+
+
+
+
+.header {
+  
+  min-height: 40px;
+  width: 100%;
+  background-image: linear-gradient(rgba(4,9,30,0.4),
+    rgba(4,9,30,0.7)),url(images/Back.jpg);
+   background-position: center bottom;
+  background-size: cover;
+  background-color: ;  
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+ 
+}
+
+
+body {
+  background-color: white;
+}
+
+
+
+
+/* Buttons */
+ 
+ 
+ 
+.nav-links{
+	  flex: 1;
+	  text-align: right;
+	  padding-right: 3.125em;
+  }
+  
+  .nav-links ul li{
+	  list-style: none;
+	  display: inline-block;
+	  padding: 40px 1px ;
+	  position: relative;
+  }
+ .nav-links ul li a {
+	 color: #fff;
+	 text-decoration: none;
+	 font-size: 13px;
+ }
+ 
+ 
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+nav a {
+	display: block;
+	background-color: ;
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: white;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+nav a:hover {
+	animation: bounce 0.5s ease-in-out;
+	
+
+}
+
+/* Buttons^ */
+
+
+
+
+
+
+
+/* Logo */
+
+.gif {
+	width: 160px;
+	height: 130px;
+	background-image: url('StillLogo.png');
+	background-size: contain;
+	cursor: pointer;
+	
+	
+}
+
+.gif:hover {
+	background-image: url('gif2.gif');
+}
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0);
+	}
+	50% {
+		transform: translateY(-10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+
+
+
+
+
+/* This is the shopping cart */
+
+
+
+
+
+
+
+
+
+/* Main Page Under header */
+
+.placeholder {
+  background-color:#E5DEC0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 12.500em;
+  margin-top: 0.625em; /* added margin */
+  padding-top: 0.625em; /* added padding */
+  
+
+}
+
+.placeholder-content {
+  text-align: center;
+}
+
+.placeholder-content h1 {
+  font-size: 2em;
+  margin: 0;
+  
+}
+.placeholder-content p {
+  font-size: 0.8em;
+  margin: 0;
+   padding-left: 25em;
+  padding-right: 25em;
+  
+}
+
+
+
+/* Main Page Under header again */
+
+.placeholder2 {
+  background-color: lightgray;
+  margin-top: 10px; /* added margin */
+  padding-top: 10px; /* added padding */
+}
+
+.placeholder2-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder2-text {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.placeholder2-text p {
+  font-size: 14px;
+  margin: 0;
+  padding-left: 30px;
+  padding-right: 300px;
+}
+
+.placeholder2-image {
+  width: 30%;
+}
+
+.placeholder2-image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 25px;
+}
+
+
+
+ul li button img {
+  width: 18px; /* adjust as needed */
+  height: 18px; /* adjust as needed */
+  margin-right: 5px; /* add some space between image and text */
+}
+
+button {
+  background-color: ;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #fff;
+  color: #000;
+  transition: background-color 0.8s ease;
+}
+
+button:hover {
+  background-color: #F7F383;
+}
+
+
+@media screen and (max-width: 600px) {
+  .nav-links ul li {
+    padding: 20px 1px;
+  }
+  
+  .nav-links ul li a {
+    font-size: 10px;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .placeholder-content h1 {
+    font-size: 1.5em;
+  }
+  
+  .placeholder-content p {
+    font-size: 0.7em;
+    padding-left: 5%;
+  }
+}
