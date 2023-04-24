@@ -357,7 +357,8 @@ col-12{
 
 
 .product-description {
-	padding: 10em;
+	padding: 1em;
+	margin: 10em;
 	background: #fff;
 	color: #000;
 	border-radius: 20px;
