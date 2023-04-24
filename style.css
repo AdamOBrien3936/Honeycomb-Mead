@@ -27,7 +27,7 @@
 
 
 body {
-	              background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.5)), url('Images/frozentree.JPG');
+	              background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.5)), url('Images/frozentree.jpg');
 				  background-repeat: no-repeat;
 				  background-attachment: fixed;
 				  background-size: cover;
