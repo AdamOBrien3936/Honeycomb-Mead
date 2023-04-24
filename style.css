@@ -12,12 +12,6 @@
   
   min-height: 40px;
   width: 100%;
-<<<<<<< HEAD
-  background-image: linear-gradient(rgba(4,9,30,0.4),
-    rgba(4,9,30,0.7)),url(Images/back.jpg);
-   background-position: center bottom;
-  background-size: cover; 
-=======
   background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.7)), url(Images/back.jpg);
    background-position: center bottom;
   background-size: cover;
@@ -33,11 +27,7 @@
 
 
 body {
-<<<<<<< HEAD
-				background-image: url('Images/frozentree.JPG');
-=======
 	              background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.5)), url('Images/frozentree.JPG');
->>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
 				  background-repeat: no-repeat;
 				  background-attachment: fixed;
 				  background-size: cover;
