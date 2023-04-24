@@ -392,6 +392,11 @@ col-12{
 	font-size: 1.2em;
 }
 
+.product-image {
+	width: 40%;
+	height: auto;
+}
+
 form.add-to-cart div,
 form.add-to-cart p {
 	text-align: center;
