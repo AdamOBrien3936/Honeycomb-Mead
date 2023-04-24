@@ -12,10 +12,11 @@
   
   min-height: 40px;
   width: 100%;
-  background-image: linear-gradient(rgba(4,9,30,0.3), rgba(4,9,30,0.7)), url(Images/back.jpg);
+  background-image: linear-gradient(rgba(4,9,30,0.4), rgba(4,9,30,0.7)), url(Images/back.jpg);
    background-position: center bottom;
   background-size: cover;
  
+>>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -26,7 +27,7 @@
 
 
 body {
-	              background-image: linear-gradient(rgba(4, 9, 30, 0.05), rgba(4, 9, 30, 0.5)), url('Images/frozentree.JPG');
+	              background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.5)), url('Images/frozentree.JPG');
 				  background-repeat: no-repeat;
 				  background-attachment: fixed;
 				  background-size: cover;
@@ -34,7 +35,11 @@ body {
 				  
 		#para1{
 		font-size: 12px;
+<<<<<<< HEAD
+		color: black;
+=======
 		caret-color: black;
+>>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
 		background-color: white;
 		}		  
 
@@ -93,7 +98,10 @@ nav {
 
 nav a {
 	display: block;
+<<<<<<< HEAD
+=======
 	
+>>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
 	padding: 5px;
 	border-radius: 10px;
 	margin-right: 10px;
@@ -239,7 +247,10 @@ ul li button img {
 }
 
 button {
+<<<<<<< HEAD
+=======
  
+>>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
   border-radius: 5px;
 }
 
