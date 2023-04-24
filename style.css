@@ -327,18 +327,7 @@ col-12{
 
 /* IMPORTED CSS FROM CART CODE */
 
-
-
-
-
-
-
-
 /*= Demo */
-
-
-
-
 
 #products ul {
 	margin: 1.5em 0;
@@ -619,4 +608,20 @@ body#checkout-page #site-info {
 
 #paypal-form {
 	margin: 1.5em 0;
+}
+
+
+
+/* This will be for the "about" page */
+
+.aboutmead {
+	background-color: #D2691E;
+}
+
+.types {
+	background-color: #eee;
+}
+
+.recipes {
+	background-color: #D2691E;
 }
