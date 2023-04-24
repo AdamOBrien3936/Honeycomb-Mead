@@ -615,7 +615,7 @@ body#checkout-page #site-info {
 /* This will be for the "about" page */
 
 .aboutmead {
-	background: rgb(126, 77, 5, 0.616);
+	background: rgb(241, 154, 23, 0.3);
 }
 
 .types {
@@ -623,5 +623,5 @@ body#checkout-page #site-info {
 }
 
 .recipes {
-	background: rgba(126, 77, 5, 0.616);
+	background: rgba(241, 154, 23, 0.3);
 }
