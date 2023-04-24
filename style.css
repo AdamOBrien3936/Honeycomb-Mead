@@ -327,18 +327,7 @@ col-12{
 
 /* IMPORTED CSS FROM CART CODE */
 
-
-
-
-
-
-
-
 /*= Demo */
-
-
-
-
 
 #products ul {
 	margin: 1.5em 0;
@@ -350,6 +339,7 @@ col-12{
 #products li {
 	float: left;
 	width: 31%;
+	height: auto;
 	margin: 0 1%;
 	display: block;
 }
@@ -358,6 +348,7 @@ col-12{
 
 .product-description {
 	padding: 1em;
+	margin: 1em;
 	background: #fff;
 	color: #000;
 	border-radius: 20px;
@@ -390,6 +381,11 @@ col-12{
 	text-align: center;
 	color: #000;
 	font-size: 1.2em;
+}
+
+.product-image img {
+		max-width: 100%;
+		height: auto;
 }
 
 form.add-to-cart div,
@@ -613,46 +609,3 @@ body#checkout-page #site-info {
 #paypal-form {
 	margin: 1.5em 0;
 }
-
-
-.footer {
-	background-color: yellow;
-	border-radius: 5px;
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	width: 100%;
-	text-align: center;
-	padding: 5px 0;
-  }
-  
-  .footer-images {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-bottom: 5px;
-  }
-  
-  .footer-image {
-	width: 50px; /* Adjust the size as needed */
-	height: auto;
-	margin: 0 5px;
-  }
-
-  
-  @keyframes bounce {
-	0% {
-	  transform: translateY(0);
-	}
-	50% {
-	  transform: translateY(-10px);
-	}
-	100% {
-	  transform: translateY(0);
-	}
-  }
-  
-  .footer-image:hover {
-	animation: bounce 0.5s ease-in-out;
-  }
-  
