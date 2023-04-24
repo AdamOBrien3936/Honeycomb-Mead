@@ -33,15 +33,16 @@ body {
 				  background-size: cover;
 			}
 				  
-		#para1{
-		font-size: 12px;
-
-		color: black;
-
-		caret-color: black;
-
-		background-color: white;
-		}		  
+			#para1 {
+				font-size: 12px;
+				color: black;
+				caret-color: black;
+				background-color: white;
+				padding: 1em; /* Add padding for better appearance */
+				margin-bottom: 1em; /* Add margin for better spacing between paragraphs */
+				background-image: linear-gradient(to right, rgba(255, 255, 255, 0.7), rgba(230, 230, 230, 0.7));
+			  }
+						
 
 .card-img-top{
 
