@@ -16,7 +16,7 @@
    background-position: center bottom;
   background-size: cover;
  
->>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
+
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -35,11 +35,11 @@ body {
 				  
 		#para1{
 		font-size: 12px;
-<<<<<<< HEAD
+
 		color: black;
-=======
+
 		caret-color: black;
->>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
+
 		background-color: white;
 		}		  
 
@@ -98,10 +98,10 @@ nav {
 
 nav a {
 	display: block;
-<<<<<<< HEAD
-=======
+
+
 	
->>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
+
 	padding: 5px;
 	border-radius: 10px;
 	margin-right: 10px;
@@ -247,10 +247,9 @@ ul li button img {
 }
 
 button {
-<<<<<<< HEAD
-=======
+
  
->>>>>>> e60df65071bbc224f572dd31880e32df3cbd235a
+
   border-radius: 5px;
 }
 
@@ -319,7 +318,7 @@ col-12{
 .card {
     margin-top: 30px;
     margin-bottom: 30px;
-    background-image: linear-gradient(to right, rgba(184, 134, 11, 0.5), rgba(255, 140, 0, 0.5));
+    background-image: linear-gradient(to right, rgba(228, 168, 15, 0.6), rgba(236, 135, 11, 0.6));
 }
 
 
