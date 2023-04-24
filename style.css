@@ -33,8 +33,8 @@ body {
 			}
 				  
 		#para1{
-		text-size: 12px;
-		text-color: black;
+		font-size: 12px;
+		color: black;
 		background-color: white;
 		}		  
 
@@ -450,7 +450,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;
