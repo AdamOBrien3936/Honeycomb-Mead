@@ -615,16 +615,13 @@ body#checkout-page #site-info {
 /* This will be for the "about" page */
 
 .aboutmead {
-	background-color: #D2691E;
-	opacity: 0.3;
+	background: rgb(126, 77, 5, 0.616);
 }
 
 .types {
-	background-color: #eee;
-	opacity: 0.3;
+	background: rgb(255, 255, 255, .3);
 }
 
 .recipes {
-	background-color: #D2691E;
-	opacity: 0.3;
+	background: rgba(126, 77, 5, 0.616);
 }
