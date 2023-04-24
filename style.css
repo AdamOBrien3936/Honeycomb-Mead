@@ -393,9 +393,9 @@ col-12{
 }
 
 .product-image img {
-	width: 40%;
-	height: auto;
-  }
+		max-width: 100%;
+		height: auto;
+	  }
 
 form.add-to-cart div,
 form.add-to-cart p {
