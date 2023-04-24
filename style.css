@@ -16,7 +16,7 @@
     rgba(4,9,30,0.7)),url(images/back.jpg);
    background-position: center bottom;
   background-size: cover;
-  background-color: ;  
+ 
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -27,15 +27,15 @@
 
 
 body {
-				background-image: url('Images/frozentree.jpg');
+				background-image: url('Images/frozentree.JPG');
 				  background-repeat: no-repeat;
 				  background-attachment: fixed;
 				  background-size: cover;
 			}
 				  
 		#para1{
-		text-size: 12px;
-		text-color: black;
+		font-size: 12px;
+		caret-color: black;
 		background-color: white;
 		}		  
 
@@ -94,7 +94,7 @@ nav {
 
 nav a {
 	display: block;
-	background-color: ;
+	
 	padding: 5px;
 	border-radius: 10px;
 	margin-right: 10px;
@@ -240,7 +240,7 @@ ul li button img {
 }
 
 button {
-  background-color: ;
+ 
   border-radius: 5px;
 }
 
@@ -263,7 +263,7 @@ button:hover {
 	
 	
 	
-}
+
 
 
 
@@ -453,7 +453,7 @@ body#checkout-page #site-info {
 
 .shopping-cart tr:nth-child(even) {
 	background: #fafafa;
-},
+}
 
 .shopping-cart td.pdelete {
 	text-align: center;
