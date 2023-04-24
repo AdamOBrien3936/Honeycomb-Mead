@@ -616,12 +616,15 @@ body#checkout-page #site-info {
 
 .aboutmead {
 	background-color: #D2691E;
+	opacity: 0.3;
 }
 
 .types {
 	background-color: #eee;
+	opacity: 0.3;
 }
 
 .recipes {
 	background-color: #D2691E;
+	opacity: 0.3;
 }
