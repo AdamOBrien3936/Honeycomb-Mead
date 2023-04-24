@@ -350,6 +350,7 @@ col-12{
 #products li {
 	float: left;
 	width: 31%;
+	height: auto;
 	margin: 0 1%;
 	display: block;
 }
