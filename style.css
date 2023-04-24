@@ -610,3 +610,37 @@ body#checkout-page #site-info {
 #paypal-form {
 	margin: 1.5em 0;
 }
+
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: yellow;
+	text-align: center;
+	padding: 10px 0;
+  }
+  
+  .footer-image {
+	width: 50px; /* Adjust the width as needed */
+	height: 50px; /* Adjust the height as needed */
+	margin: 0 10px;
+	transition: transform 0.5s;
+  }
+  
+  .footer-image:hover {
+	transform: translateY(-10px);
+  }
+
+  
+  @keyframes bounce {
+	0% {
+	  transform: translateY(0);
+	}
+	50% {
+	  transform: translateY(-10px);
+	}
+	100% {
+	  transform: translateY(0);
+	}
+  }
