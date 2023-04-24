@@ -93,7 +93,6 @@ nav {
 
 nav a {
 	display: block;
-	background-color: ;
 	padding: 5px;
 	border-radius: 10px;
 	margin-right: 10px;
@@ -239,7 +238,6 @@ ul li button img {
 }
 
 button {
-  background-color: ;
   border-radius: 5px;
 }
 
@@ -262,7 +260,7 @@ button:hover {
 	
 	
 	
-}
+
 
 
 
