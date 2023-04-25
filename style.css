@@ -696,3 +696,14 @@ body#checkout-page #site-info {
 
 
 
+img {
+	max-width: 100%;
+	height: auto;
+  }
+
+  @media (max-width: 768px) {
+	.card {
+	  margin-bottom: 20px;
+	}
+  }
+  
