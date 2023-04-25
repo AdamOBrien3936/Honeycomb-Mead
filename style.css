@@ -348,12 +348,13 @@ col-12{
 
 
 .product-description {
-	padding: 1em;
-	margin: 1em;
-	background: #fff;
-	color: #000;
-	border-radius: 20px;
+    padding: 1em;
+    margin: 1em;
+    background-image: linear-gradient(to right, rgba(151, 130, 73, 0.5), rgba(241, 186, 7, 0.5));
+    color: #000;
+    border-radius: 20px;
 }
+
 
 .product-name {
 	text-align: center;
