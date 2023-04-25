@@ -713,3 +713,7 @@ img {
 	padding-bottom: 50px; /* adjust the value as needed */
   }
   
+
+  .card {
+	text-align: center;
+  }
