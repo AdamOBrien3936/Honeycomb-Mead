@@ -6,6 +6,10 @@
 		<meta charset="utf-8" />
 		<!-- Required meta tag for Bootstrap -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
@@ -21,24 +25,34 @@
     <div class="gif"></div>
   </a>
 
-  <nav>
-    <div class="nav-links">
-      <ul>
-        <li><a href="index.html">HOME</a></li>
-        <li><a href="about.html">ABOUT</a></li>
-        <li><a href="Shop.html">SHOP</a></li>
-        <li><a href="Contact.html">CONTACT</a></li>
-        <li>
-    <a href="cart.html">
-      <button>
-        <img src="Images/shopping-cart.png" alt="Button Image">
-        CART
-      </button>
-      </a>
-       </li>
+  <nav class="navbar navbar-expand-md navbar-light bg-light">
+	<a class="navbar-brand" href="index.html"><div class="gif"></div></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+	  <span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNav">
+	  <ul class="navbar-nav ml-auto">
+		<li class="nav-item active">
+		  <a class="nav-link" href="index.html">HOME</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="about.html">ABOUT</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="Shop.html">SHOP</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="Contact.html">CONTACT</a>
+		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="cart.html">
+			<img src="Images/shopping-cart.png" alt="Button Image"> CART
+		  </a>
+		</li>
 	  </ul>
- 
- </nav>
+	</div>
+  </nav>
+  
 </section>
 
 
@@ -48,7 +62,9 @@
 <body>
 	...
 <!-- About Mead -->
-<div class="info-box">
+<div class="row">
+	<div class="col-md-6">
+	  <div class="info-box">
   <img src="Images/aboutmead.jpeg" alt="Image 1" class="info-image">
   <div class="info-content">
     <h2>About Mead</h2>
@@ -62,7 +78,8 @@
 </div>
 
 <!-- Types of Mead -->
-<div class="info-box">
+<div class="col-md-6">
+    <div class="info-box">
   <img src="Images/typemead.jpg" alt="Image 2" class="info-image">
   <div class="info-content">
     <h2>Types of Mead</h2>
@@ -76,7 +93,9 @@
 </div>
 
 <!-- Recipes -->
-<div class="info-box">
+<div class="row">
+	<div class="col-md-6">
+	  <div class="info-box">
   <img src="Images/corks picture.jpg" alt="Image 3" class="info-image">
   <div class="info-content">
     <h2>Recipes</h2>
@@ -91,6 +110,8 @@
 
 	<div class="footer">
 		<div class="footer-images">
+			<div class="footer text-center">
+
 		  <a href="https://google.com" target="_blank"><img src="Images/instagram.png" alt="Image 1" class="footer-image"></a>
 		  <a href="https://twitter.com/HoneyMeadie" target="_blank"><img src="Images/twitter.png" alt="Image 2" class="footer-image"></a>
 		  <a href="https://google.com" target="_blank"><img src="Images/tiktok.png" alt="Image 3" class="footer-image"></a>
