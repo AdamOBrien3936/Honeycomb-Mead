@@ -617,7 +617,7 @@ body#checkout-page #site-info {
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	background-color: rgb(176, 137, 59);
+	background-color: rgb(115, 85, 25);
 	text-align: center;
 	padding: 4px 0; /* Adjust the padding to make the footer skinnier */
     border-radius: 5px; /* Add border-radius for slightly curved edges */
