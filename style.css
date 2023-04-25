@@ -688,7 +688,7 @@ body#checkout-page #site-info {
 
 .product-description {
     background-color: rgb(36, 127, 172); /* You can change this to any color or gradient you'd like */
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1em;
     text-align: center;
 }
