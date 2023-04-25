@@ -650,7 +650,8 @@ body#checkout-page #site-info {
   .info-box {
 	display: flex;
 	align-items: center;
-	background-image: linear-gradient(135deg, #ddc38e, #ca9222);
+    background-image: linear-gradient(135deg, rgba(241, 154, 23, 0.3), rgba(255, 255, 255, 0.3));
+
 	padding: 20px;
 	margin-bottom: 20px;
 	border-radius: 40px;
