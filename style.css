@@ -27,8 +27,9 @@
 
 /* Font for title cards */
 
-.card-header {
+.titlefont {
 	color: white;
+	font: Tahoma;
 }
 
 body {
