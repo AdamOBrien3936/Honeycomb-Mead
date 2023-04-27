@@ -1,3 +1,12 @@
+/* Font for title cards */
+
+.titlefont {
+	color: rgb(119, 82, 14);
+	font-family: Castoro Titling;
+}
+
+
+
 *{ 
   margin: 0;
   padding: 0;
@@ -25,12 +34,7 @@
  
 }
 
-/* Font for title cards */
 
-.titlefont {
-	color: rgb(119, 82, 14);
-	font-family: Castoro Titling;
-}
 
 body {
 	              background-image: linear-gradient(rgba(4, 9, 30, 0.1), rgba(4, 9, 30, 0.5)), url('Images/frozentree.jpg');
